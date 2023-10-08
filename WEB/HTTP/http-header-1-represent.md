@@ -1,7 +1,5 @@
 > 모든 개발자를 위한 HTTP 웹 기본 지식 - 인프런 강의를 듣고 정리한 내용입니다.
 
-[http-message](WEB/HTTP/http-message.md)에서 간단하게 알아보았지만 좀 더 딥하게 공부해보자.
-
 - 요청 메세지
 ```
 GET/search?q=hello&hl=ko HTTP/1.1 (start-line)
