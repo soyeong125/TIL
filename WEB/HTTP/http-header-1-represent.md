@@ -68,5 +68,10 @@ Content-Length: 3423                   (CRLF)
   - 예) gzip, deflate, identify
     <img width="275" alt="image" src="https://github.com/soyeong125/TIL/assets/57309311/7c7b735b-8a65-43fe-b29d-e10e4b188d88">
 
-- Content-Language: 표현 데이터의 자연언어
-- Content-Length: 표현 데이터의 길이
+- Content-Language
+  - 표현 데이터의 자연언어
+  - 예) ko, en
+- Content-Length
+  - 표현 데이터의 길이
+  - 바이트 단위
+  - Transfer-Encoding을 사용하면 Content-Length 사용하면 안됨
